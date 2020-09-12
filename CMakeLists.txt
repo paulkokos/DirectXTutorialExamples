@@ -3,4 +3,6 @@ project(DirectXTutorialExamples)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(DirectXTutorialExamples main.cpp)
+add_subdirectory(src)
+add_subdirectory(Libraries)
+add_subdirectory(tests)
